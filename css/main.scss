@@ -24,10 +24,66 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 #nav-logo{
     display: flex;
     justify-content: space-around;
-    margin: 1rem -20rem;
+    margin: 1rem -1rem;
 
     a img{
         width: 50%;
-        
+        transition: all 3s ease-in;
+    }
+
+    form{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .search-button-header{
+            padding: 0 1rem;
+
+            input,
+            button{
+                font-size: 1rem;
+                padding: 0.7rem;
+            }
+
+            input{
+                width: 28rem;
+                border: 0.03rem solid black;
+                border-radius: 0.5rem;
+                outline: none;
+                color: var(--hover-text);
+            }
+
+            button{
+                font-size: 1rem;
+                padding: 0.7rem;
+                color: white;
+                background-color: var(--hover-text);
+                border: none;
+                position: absolute;
+                transform: translate(-2.45rem, 0.03rem);
+                border-top-right-radius: .5rem;
+                border-bottom-right-radius: .5rem;
+
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+        button{
+            border: none;
+            background-color: white;
+            font-size: 1rem;
+            cursor: pointer;
+
+            
+            &:hover{
+                    color: var(--hover-text);
+            }
+
+            .fa-shopping-cart{
+                padding: 0 0.5rem;
+
+            }
+        }
     }
 }

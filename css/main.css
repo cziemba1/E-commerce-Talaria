@@ -28,10 +28,74 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 1rem -20rem;
+  margin: 1rem -1rem;
 }
 
 #nav-logo a img {
   width: 50%;
+  -webkit-transition: all 3s ease-in;
+  transition: all 3s ease-in;
+}
+
+#nav-logo form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nav-logo form .search-button-header {
+  padding: 0 1rem;
+}
+
+#nav-logo form .search-button-header input,
+#nav-logo form .search-button-header button {
+  font-size: 1rem;
+  padding: 0.7rem;
+}
+
+#nav-logo form .search-button-header input {
+  width: 28rem;
+  border: 0.03rem solid black;
+  border-radius: 0.5rem;
+  outline: none;
+  color: var(--hover-text);
+}
+
+#nav-logo form .search-button-header button {
+  font-size: 1rem;
+  padding: 0.7rem;
+  color: white;
+  background-color: var(--hover-text);
+  border: none;
+  position: absolute;
+  -webkit-transform: translate(-2.45rem, 0.03rem);
+          transform: translate(-2.45rem, 0.03rem);
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+#nav-logo form .search-button-header button:hover {
+  color: white;
+}
+
+#nav-logo form button {
+  border: none;
+  background-color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#nav-logo form button:hover {
+  color: var(--hover-text);
+}
+
+#nav-logo form button .fa-shopping-cart {
+  padding: 0 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
