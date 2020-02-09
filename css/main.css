@@ -9,6 +9,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   text-decoration: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
   --main-text: black;
   --hover-text: rgb(202, 184, 21);
 }
@@ -22,19 +23,75 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   overflow: hidden;
 }
 
+#header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 0.02rem solid rgba(0, 0, 0, 0.8);
+}
+
+#header-info h1 {
+  text-transform: uppercase;
+  font-size: .7rem;
+  background-color: black;
+  color: white;
+  width: 60%;
+  padding: 0.5rem 0.5rem 0.5rem 16rem;
+}
+
+#header-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  padding-right: 9rem;
+}
+
+#header-info ul li {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: .7rem;
+  border-right: 0.02rem solid rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#header-info ul li a {
+  text-align: center;
+  padding: 1rem;
+}
+
+#header-info ul li a:hover {
+  color: var(--hover-text);
+}
+
 #nav-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 1rem -1rem;
+  height: 5rem;
 }
 
 #nav-logo a img {
+  position: relative;
   width: 50%;
   -webkit-transition: all 3s ease-in;
   transition: all 3s ease-in;
+  z-index: 2;
+  -webkit-transform: translate(-4rem, -2rem);
+          transform: translate(-4rem, -2rem);
 }
 
 #nav-logo form {
@@ -49,35 +106,29 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
           align-items: center;
 }
 
-#nav-logo form .search-button-header {
-  padding: 0 1rem;
-}
-
 #nav-logo form .search-button-header input,
 #nav-logo form .search-button-header button {
-  font-size: 1rem;
+  font-size: .8rem;
   padding: 0.7rem;
 }
 
 #nav-logo form .search-button-header input {
   width: 28rem;
   border: 0.03rem solid black;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   outline: none;
   color: var(--hover-text);
 }
 
 #nav-logo form .search-button-header button {
-  font-size: 1rem;
-  padding: 0.7rem;
   color: white;
   background-color: var(--hover-text);
   border: none;
   position: absolute;
-  -webkit-transform: translate(-2.45rem, 0.03rem);
-          transform: translate(-2.45rem, 0.03rem);
-  border-top-right-radius: .5rem;
-  border-bottom-right-radius: .5rem;
+  -webkit-transform: translate(-2.25rem, 0.03rem);
+          transform: translate(-2.25rem, 0.03rem);
+  border-top-right-radius: .2rem;
+  border-bottom-right-radius: .2rem;
 }
 
 #nav-logo form .search-button-header button:hover {
@@ -97,5 +148,59 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 
 #nav-logo form button .fa-shopping-cart {
   padding: 0 0.5rem;
+}
+
+#nav-items {
+  margin: 0 8.5rem;
+  border-top: 0.02rem solid rgba(0, 0, 0, 0.8);
+  border-bottom: 0.02rem solid rgba(0, 0, 0, 0.8);
+}
+
+#nav-items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-start;
+}
+
+#nav-items ul li {
+  font-size: .8rem;
+  padding: 1rem 0;
+}
+
+#nav-items ul li:hover .nav-items-sub-list li {
+  opacity: 1;
+}
+
+#nav-items ul li a {
+  border-right: 0.02rem solid rgba(0, 0, 0, 0.8);
+  padding: 0 1rem;
+}
+
+#nav-items ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+#nav-items ul li .nav-items-sub-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#nav-items ul li .nav-items-sub-list li {
+  opacity: 0;
+  display: hidden;
+}
+
+#nav-items ul li .nav-items-sub-list li a {
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
