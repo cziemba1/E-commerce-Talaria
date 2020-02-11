@@ -15,8 +15,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 
 #landing-page{
     width: 100%;
-    height: 100vh;
-    position: fixed;
     top: 0px;
     left: 0px;
     overflow: hidden;
@@ -137,41 +135,172 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
     ul{
         display: flex;
         justify-items: flex-start;
+        position: relative;
         
 
         li{
+            position: relative;
             font-size: .8rem;
             padding: 1rem 0;
-
-            &:hover .nav-items-sub-list li{
-                opacity: 1;
-                }
 
             a{
                 border-right: .02rem solid rgba(0, 0, 0, 0.8);
                 padding: 0 1rem;
-                
-                &:hover{
-                background-color: black;
-                color: white;
-                }
+                display: block;
+                color: black;
             }
 
-            .nav-items-sub-list{
+            ul{
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
+                position: absolute;
+                display: none;
+                transform: translateY(1rem);
+                z-index: 30;
                 
-                li{
-                    opacity: 0;
-                    display: hidden;
+                
+                li {
+                    display: block;
+                    border-bottom: 0.02rem solid rgba(0, 0, 0, 0.8);
+                    background-color: rgb(243, 243, 243);
+                    padding: 1rem;
+
                     a{
                         border: none;
+                        text-align: center;
+                        color: black;
+                    }
+
+                    &:hover {
+                        background-color: black;
+                        
+                    }
+                    &:hover a{
+                        color: white;
                     }
                 }
             }
-            
+        
+        &:hover ul{
+            display: block;
         }
+    }
+    }
+}
+
+#hero{
+    height: 40rem;
+    margin: 1rem 8.5rem ;
+    display: grid;
+    grid-template-rows: 3fr 3fr 2fr;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 1rem;
+
+    div{
+        border-radius: 0.5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 27rem;
+        transition: all 0.3s ease-in;
+
+        &:hover{
+            background-size: 29rem;
+            border-radius: 0.5rem;
+        }
+                
+        a{
+            font-size: 2.5rem;
+            color: white;
+            transition: all 0.5s ease-in;
+        }
+    }
+
+    .main-shoes{
+        background-image: linear-gradient(to top, rgba(0,0,0, 0.4)), url("/assets/hero/sharon-garcia-pkUH647RogQ-unsplash-min.jpg");
+        grid-row: 1 / 3;
+        grid-column: 1 / 3;
+        background-position: bottom;
+        position: relative;
+        background-size: 52rem;
+
+        &:hover{
+            background-size: 54rem;
+        }
+
+        a{
+            font-size: 4rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            text-align: right;
+            color: white;
+            border-radius: .5rem;
+            width: 35rem;
+            
+
+        }
+    }
+
+    .adidas{
+        background-image: linear-gradient(to top, rgba(0,0,0, 0.5)), url("/assets/hero/bogdan-glisik-WQqczef8Cfg-unsplash\ \(1\)-min.jpg");
+
+        a{
+            position: absolute;
+            top: 40%;
+            left: 78%;
+            transform: translate(-50%, -50%);
+        }
+    
+    }
+
+    .nike{
+        background-image: linear-gradient(to top, rgba(0,0,0, 0.5)), url("/assets/hero/revolt-164_6wVEHfI-unsplash\ \(1\)-min.jpg");
+        a{
+            position: absolute;
+            top: 75%;
+            left: 78%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .vans{
+        background-image: linear-gradient(to top, rgba(0,0,0, 0.5)), url("/assets/hero/matt-tsir-GJs-sZriX9g-unsplash-min.jpg");
+        a{
+            position: absolute;
+            transform: translate(9rem, 3.5rem);
+        }
+    }
+    .reebok{
+        background-image: linear-gradient(to top, rgba(0,0,0, 0.5)), url("/assets/hero/maureen-de-wit-cEot_30k978-unsplash-min.jpg");
+        a{
+            position: absolute;
+            transform: translate(8rem, 3.5rem);
+        }
+    }
+    .converse{
+        background-image: linear-gradient(to top, rgba(0,0,0, 0.5)), url("/assets/hero/thuan-pham-tvl2Pa98K_g-unsplash-min.jpg");
+        a{
+            position: absolute;
+            transform: translate(6rem, 3.5rem);
+        }
+    }
+}
+
+.best-seller-section{
+    margin: 1rem 8.5rem;
+    
+    .title-gorros{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        padding: 1rem 0 0.5rem 0;
+        font-weight: lighter;
+        border-bottom: .1rem solid var(--hover-text);
+    }
+
+    .card{
+        height: 30rem;
     }
 }
 
