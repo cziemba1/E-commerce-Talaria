@@ -474,3 +474,92 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
         }
     }
 }
+
+#footer{
+    margin: 0 8.5rem;
+    border-top: .02rem solid rgba(0, 0, 0, 0.8);
+    border-bottom: .02rem solid rgba(0, 0, 0, 0.8);
+
+    .footer-logo{
+        display: flex;
+        height: 20rem;
+
+        .logo-social{
+            display: flex;
+            flex-direction: column;
+
+            .social-button ul{
+                display: flex;
+                justify-content: center;
+                
+
+                li{
+                    padding: 0 .5rem;
+                    margin: 0 .2rem;
+                    background-color: var(--hover-text);
+                    padding: .5rem;
+                    border-radius: .4rem;
+                    transition: all .3s ease-out;
+
+                    &:hover{
+                        background-color: black;
+                    }
+
+                    a{
+                        font-size: 1.5rem;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .sections{
+            display: flex;
+            width: 80rem;
+            justify-content: flex-end;
+            padding: 1rem;
+
+            .categorias{
+                padding: 0 4rem;
+
+                h1{
+                    text-transform: uppercase;
+                    margin-bottom: .5rem;
+                }
+
+                ul li{
+                    padding-top: .3rem;
+
+                    a{
+                    color: black;
+                    transition: color .1s ease-in;
+
+                    &:hover{
+                        color: var(--hover-text);
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#credit-card-shipping-footer{
+    height: 6rem;
+    background-color: black;
+
+    .credit-card{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 6rem;
+
+        i,
+        img{
+            color: white;
+            padding-top: 2rem;
+            font-size: 2rem;
+            padding-left: 2rem;
+            
+        }
+    }
+}

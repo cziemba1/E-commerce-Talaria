@@ -558,4 +558,112 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   color: var(--hover-text);
   background-color: black;
 }
+
+#footer {
+  margin: 0 8.5rem;
+  border-top: 0.02rem solid rgba(0, 0, 0, 0.8);
+  border-bottom: 0.02rem solid rgba(0, 0, 0, 0.8);
+}
+
+#footer .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20rem;
+}
+
+#footer .footer-logo .logo-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer .footer-logo .logo-social .social-button ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer .footer-logo .logo-social .social-button ul li {
+  padding: 0 .5rem;
+  margin: 0 .2rem;
+  background-color: var(--hover-text);
+  padding: .5rem;
+  border-radius: .4rem;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+#footer .footer-logo .logo-social .social-button ul li:hover {
+  background-color: black;
+}
+
+#footer .footer-logo .logo-social .social-button ul li a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#footer .footer-logo .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem;
+}
+
+#footer .footer-logo .sections .categorias {
+  padding: 0 4rem;
+}
+
+#footer .footer-logo .sections .categorias h1 {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+#footer .footer-logo .sections .categorias ul li {
+  padding-top: .3rem;
+}
+
+#footer .footer-logo .sections .categorias ul li a {
+  color: black;
+  -webkit-transition: color .1s ease-in;
+  transition: color .1s ease-in;
+}
+
+#footer .footer-logo .sections .categorias ul li a:hover {
+  color: var(--hover-text);
+}
+
+#credit-card-shipping-footer {
+  height: 6rem;
+  background-color: black;
+}
+
+#credit-card-shipping-footer .credit-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 6rem;
+}
+
+#credit-card-shipping-footer .credit-card i,
+#credit-card-shipping-footer .credit-card img {
+  color: white;
+  padding-top: 2rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
