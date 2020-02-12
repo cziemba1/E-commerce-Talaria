@@ -301,6 +301,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 .best-seller-section{
     margin: 1rem 8.5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     
     .card{
@@ -320,6 +321,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
         img{
             width: 15rem;
             height: 20rem;
+            object-fit: cover;
         }
 
         h1{
@@ -333,8 +335,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
         }
 
         button{
-            position: absolute;
-            transform: translateY(23.5rem);
             border: none;
             background-color:  rgb(224, 224, 224);
             color: black;
@@ -563,3 +563,5 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
         }
     }
 }
+
+
