@@ -342,19 +342,220 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
           transform: translate(6rem, 3.5rem);
 }
 
-.best-seller-section {
+.title {
   margin: 1rem 8.5rem;
-}
-
-.best-seller-section .title-gorros {
   font-size: 1.5rem;
   margin-top: 2rem;
   padding: 1rem 0 0.5rem 0;
   font-weight: lighter;
+  text-transform: uppercase;
   border-bottom: 0.1rem solid var(--hover-text);
 }
 
+.best-seller-section {
+  margin: 1rem 8.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .best-seller-section .card {
-  height: 30rem;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 17rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.best-seller-section .card:hover {
+  -webkit-box-shadow: 8px 0 10px -4px rgba(153, 153, 153, 0.5), -8px 0 10px -4px rgba(153, 153, 153, 0.5);
+          box-shadow: 8px 0 10px -4px rgba(153, 153, 153, 0.5), -8px 0 10px -4px rgba(153, 153, 153, 0.5);
+}
+
+.best-seller-section .card img {
+  width: 15rem;
+  height: 20rem;
+}
+
+.best-seller-section .card h1 {
+  color: var(--hover-text);
+  padding: .5rem 0;
+}
+
+.best-seller-section .card p {
+  font-size: .8rem;
+  padding-bottom: .5rem;
+}
+
+.best-seller-section .card button {
+  position: absolute;
+  -webkit-transform: translateY(23.5rem);
+          transform: translateY(23.5rem);
+  border: none;
+  background-color: #e0e0e0;
+  color: black;
+  padding: .5rem;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+
+.best-seller-section .card button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.best-seller-section .card #liquidacion {
+  background-color: orange;
+  color: white;
+  border-radius: .3rem;
+  padding: .3rem .5rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  top: -23rem;
+  left: 9rem;
+}
+
+.pre-footer {
+  margin: 1rem 8.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pre-footer div {
+  width: 50%;
+  height: 20rem;
+  margin-top: 3rem;
+  border-radius: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.pre-footer .newsletter {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem;
+}
+
+.pre-footer .newsletter h1,
+.pre-footer .newsletter p,
+.pre-footer .newsletter .fa-envelope-open-text {
+  color: var(--hover-text);
+}
+
+.pre-footer .newsletter .fa-envelope-open-text {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.pre-footer .newsletter h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pre-footer .newsletter p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pre-footer .newsletter .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+  margin-left: 0;
+  width: 30rem;
+}
+
+.pre-footer .newsletter .subscribe input {
+  border-top-left-radius: .2rem;
+  border-bottom-left-radius: .2rem;
+  border: none;
+  width: 400px;
+  padding: .5rem;
+  outline: none;
+}
+
+.pre-footer .newsletter .subscribe button {
+  border: .05rem solid white;
+  background-color: black;
+  color: white;
+  padding: .5rem;
+  border-top-right-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+
+.pre-footer .newsletter .subscribe button:hover {
+  background-color: var(--hover-text);
+  color: white;
+  cursor: pointer;
+  border: 0.05rem solid var(--hover-text);
+}
+
+.pre-footer .sale {
+  background-image: url("/assets/pre-footer/claudio-schwarz-purzlbaum-628M6D91QX0-unsplash-min.jpg");
+  background-size: cover;
+  background-position: -5rem 0;
+}
+
+.pre-footer .sale div {
+  position: relative;
+  -webkit-transform: translate(110%, 20%);
+          transform: translate(110%, 20%);
+}
+
+.pre-footer .sale div h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-left: -6.5rem;
+}
+
+.pre-footer .sale div a {
+  border: .2rem solid white;
+  color: white;
+  padding: .5rem;
+  border-radius: .2rem;
+  margin-top: 1rem;
+  margin-left: -3rem;
+  position: absolute;
+  font-size: 2.5rem;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.pre-footer .sale div a:hover {
+  border: 0.2rem solid var(--hover-text);
+  color: var(--hover-text);
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */
