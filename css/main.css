@@ -36,7 +36,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   font-size: .7rem;
   background-color: black;
   color: white;
-  width: 60%;
+  width: 45%;
   padding: 0.5rem 0.5rem 0.5rem 16rem;
 }
 
@@ -50,7 +50,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40%;
+  width: 55%;
   padding-right: 9rem;
 }
 
@@ -252,8 +252,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 #hero .main-shoes {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4))), url("assets/hero/sharon-garcia-pkUH647RogQ-unsplash-min.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4)), url("assets/hero/sharon-garcia-pkUH647RogQ-unsplash-min.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4))), url("/assets/hero/sharon-garcia-pkUH647RogQ-unsplash-min.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4)), url("/assets/hero/sharon-garcia-pkUH647RogQ-unsplash-min.jpg");
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 / 3;
@@ -284,8 +284,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 #hero .adidas {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("assets/hero/bogdan-glisik-WQqczef8Cfg-unsplash (1)-min.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("assets/hero/bogdan-glisik-WQqczef8Cfg-unsplash (1)-min.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("/assets/hero/bogdan-glisik-WQqczef8Cfg-unsplash (1)-min.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("/assets/hero/bogdan-glisik-WQqczef8Cfg-unsplash (1)-min.jpg");
 }
 
 #hero .adidas a {
@@ -297,8 +297,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 #hero .nike {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("assets/hero/revolt-164_6wVEHfI-unsplash (1)-min.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("assets/hero/revolt-164_6wVEHfI-unsplash (1)-min.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("/assets/hero/revolt-164_6wVEHfI-unsplash (1)-min.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("/assets/hero/revolt-164_6wVEHfI-unsplash (1)-min.jpg");
 }
 
 #hero .nike a {
@@ -310,8 +310,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 #hero .vans {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("assets/hero/matt-tsir-GJs-sZriX9g-unsplash-min.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("assets/hero/matt-tsir-GJs-sZriX9g-unsplash-min.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("/assets/hero/matt-tsir-GJs-sZriX9g-unsplash-min.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("/assets/hero/matt-tsir-GJs-sZriX9g-unsplash-min.jpg");
 }
 
 #hero .vans a {
@@ -321,8 +321,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 #hero .reebok {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("assets/hero/maureen-de-wit-cEot_30k978-unsplash-min.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("assets/hero/maureen-de-wit-cEot_30k978-unsplash-min.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("/assets/hero/maureen-de-wit-cEot_30k978-unsplash-min.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("/assets/hero/maureen-de-wit-cEot_30k978-unsplash-min.jpg");
 }
 
 #hero .reebok a {
@@ -332,8 +332,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 #hero .converse {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("assets/hero/thuan-pham-tvl2Pa98K_g-unsplash-min.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("assets/hero/thuan-pham-tvl2Pa98K_g-unsplash-min.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5))), url("/assets/hero/thuan-pham-tvl2Pa98K_g-unsplash-min.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)), url("/assets/hero/thuan-pham-tvl2Pa98K_g-unsplash-min.jpg");
 }
 
 #hero .converse a {
@@ -405,7 +405,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   padding-bottom: .5rem;
 }
 
-.best-seller-section .card button {
+.best-seller-section .card a {
   border: none;
   background-color: #e0e0e0;
   color: black;
@@ -414,7 +414,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   transition: all .4s ease-in;
 }
 
-.best-seller-section .card button:hover {
+.best-seller-section .card a:hover {
   background-color: black;
   color: white;
   cursor: pointer;
@@ -504,7 +504,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   outline: none;
 }
 
-.pre-footer .newsletter .subscribe button {
+.pre-footer .newsletter .subscribe a {
   border: .05rem solid white;
   background-color: black;
   color: white;
@@ -515,7 +515,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   transition: all .4s ease-in;
 }
 
-.pre-footer .newsletter .subscribe button:hover {
+.pre-footer .newsletter .subscribe a:hover {
   background-color: var(--hover-text);
   color: white;
   cursor: pointer;
@@ -523,7 +523,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
 }
 
 .pre-footer .sale {
-  background-image: url("assets/pre-footer/claudio-schwarz-purzlbaum-628M6D91QX0-unsplash-min.jpg");
+  background-image: url("/assets/pre-footer/claudio-schwarz-purzlbaum-628M6D91QX0-unsplash-min.jpg");
   background-size: cover;
   background-position: -5rem 0;
 }
@@ -592,7 +592,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
           justify-content: center;
 }
 
-#footer .footer-logo .logo-social .social-button ul li {
+#footer .footer-logo .logo-social .social-button ul li a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#footer .footer-logo .logo-social .social-button ul li a i {
   padding: 0 .5rem;
   margin: 0 .2rem;
   background-color: var(--hover-text);
@@ -602,13 +607,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   transition: all .3s ease-out;
 }
 
-#footer .footer-logo .logo-social .social-button ul li:hover {
+#footer .footer-logo .logo-social .social-button ul li a i:hover {
   background-color: black;
-}
-
-#footer .footer-logo .logo-social .social-button ul li a {
-  font-size: 1.5rem;
-  color: white;
 }
 
 #footer .footer-logo .sections {
@@ -666,5 +666,96 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, s
   padding-top: 2rem;
   font-size: 2rem;
   padding-left: 2rem;
+}
+
+.product {
+  margin: 0 8.5rem;
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product img {
+  width: 65%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 3rem;
+}
+
+.product .product-content {
+  margin: 0 2rem;
+  padding-right: 8rem;
+}
+
+.product .product-content h1 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.product .product-content .product-price {
+  font-size: 1.9rem;
+  margin-bottom: .5rem;
+}
+
+.product .product-content .product-color {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.product .product-content .product-talles {
+  margin-bottom: .5rem;
+}
+
+.product .product-content .product-talles p {
+  padding-bottom: .5rem;
+}
+
+.product .product-content .product-talles button {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: .4rem;
+}
+
+.product .product-content .product-talles button:hover {
+  background-color: black;
+  color: var(--hover-text);
+}
+
+.product .product-content .product-carrito {
+  background-color: white;
+  color: black;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: .4rem;
+  border: .05rem solid black;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  margin-bottom: .5rem;
+}
+
+.product .product-content .product-carrito:hover {
+  background-color: black;
+  color: var(--hover-text);
+}
+
+.product .product-content .product-detalles {
+  margin: 1.5rem 0;
+}
+
+.product .product-content .product-detalles .product-detalles-title {
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+.product .product-content .product-detalles .product-detalles-texto {
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=main.css.map */
