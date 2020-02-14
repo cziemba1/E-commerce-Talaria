@@ -11,16 +11,33 @@
 </head>
 
 <body>
+    <div class="modal-bg">
+        <div class="modal">
+            <h1>LOG-IN</h1>
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" id="usuario">
+            <label for="contraseña">Contraseña:</label>
+            <input type="contraseña" name="contraseña" id="mail">
+            <button>LOG-IN</button>
+
+            <h2>Aun no eres miembro?</h2>
+            <button>SIGN-IN</button>
+            <span class="modal-close">X</span>
+        </div>
+    </div>
     <div id="landing-page">
         <div id="header-info">
             <h1>Necesitas ayuda? Tel: +54 011 123456789 / SUPPORT@talaria.com</h1>
             <ul>
-                <li><a href="">Sobre Nosotros</a></li>
-                <li><a href="">Ordenes y Devoluciones</a></li>
-                <li><a href="">Contacto</a></li>
-                <li><a href="">SIGN IN</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="ordenes&devoluciones.html">Ordenes y Devoluciones</a></li>
+                <li><a href="mailto:SUPPORT@talaria.com">Contacto</a></li>
+                <li><a class="log-in-button">LOG-IN</a></li>
             </ul>
         </div>
+
+
+
         <div id="nav-logo">
             <a href="index.html"><img id="logo" src="assets/logo.png" alt=""></a>
             <form action="">
@@ -47,6 +64,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="buying-section">
             <h1 class="title">ZAPATILLAS</h1>
             <div class="best-seller-section">
@@ -171,18 +189,6 @@
                         </div>
                     </div>
                     <div class="categorias">
-                        <h1>Informacion</h1>
-                        <div class="categs">
-                            <ul>
-                                <li><a href="">Tu cuenta</a></li>
-                                <li><a href="">Costo de Envio</a></li>
-                                <li><a href="">Terminos y Condiciones</a></li>
-                                <li><a href="">Tabla de Talles</a></li>
-                                <li><a href="">FAQ</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="categorias">
                         <h1>Contacto</h1>
                         <div class="categs">
                             <ul>
@@ -207,6 +213,7 @@
                 <i class="fab fa-cc-diners-club"></i>
             </div>
         </div>
+
         <script src="https://kit.fontawesome.com/33e7d1d044.js" crossorigin="anonymous"></script>
         <script src="app.js"></script>
 </body>
